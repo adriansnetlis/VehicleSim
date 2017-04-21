@@ -17,9 +17,9 @@ Workflow plan:
  2. Universal physics model(for objects and surfaces)    
  3. Editor with GUI    
   3.1. Features included:    
-    3.1.1. Create, remove, move, duplicate mass nodes and mass node groups    
-    3.1.2. Create, remove, configure springs between mass nodes    
-    3.1.3. Auto-calculate mode for springs(using generalized material and surface shaping as input).    
+    * Create, remove, move, duplicate mass nodes and mass node groups    
+    * Create, remove, configure springs between mass nodes    
+    * Auto-calculate mode for springs(using generalized material and surface shaping as input).    
  4. Advanced drivetrain components    
   4.1. Engine, transmission, differentials, axis, suspension systems, electronics    
  5. Tire and wheel model    
