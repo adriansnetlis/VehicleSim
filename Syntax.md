@@ -39,10 +39,11 @@ All the variables and function names must be exact and straightforward. To keep 
 
 ##### functions
 * Function name's first word must start with lowercase, every next - with uppercase.
-	| Name         | Correct? |
-	|:------------:|:--------:|
-	| TestFunction | No       |
-	| testfunction | No       |
-	| testFunction | Yes      |
-	| tf           | No       |
-	| testFunc     | No       |
+
+| Name         | Correct? |
+|:------------:|:--------:|
+| TestFunction | No       |
+| testfunction | No       |
+| testFunction | Yes      |
+| tf           | No       |
+| testFunc     | No       |
