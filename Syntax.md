@@ -43,13 +43,6 @@ if (a > b) {
 #### variables
 Runtime variables must be defined in the deepest identation level where they are going to be used. User-adjustable variables must all be set in one place - the highest identation space that any of the variables require.
 
-```c++
-class Vector3
-{
-
-}
-```
-
 #### identation
 Identation must be consistent where each next identation level is 4 whitespaces(1 tab) deeper than previous one.
 
@@ -68,7 +61,7 @@ Function name's first word must start with lowercase, every next - with uppercas
 | testFunc     | No       |
 
 ##### variable names
-Variables, just like functions, start with lowercase and every next letter - with uppercase. For most of variables only full names are allowed. Exceptions are physics variables, where you can use the letters as used in physics(e.g. `v` for `velocity`, `t` for time, `d_t`(`d_` stands for delta) for `deltaTime`).
+Variables, just like functions, start with lowercase and every next letter - with uppercase. For most of variables only full names are allowed. Exceptions are physics variables, where you can use the letters as used in physics(e.g. `v` for `velocity`, `t` for time, `d_t` (`d_` stands for delta) for `deltaTime`).
 
 | Name          | Correct? |
 |:-------------:|:--------:|
