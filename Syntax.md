@@ -34,3 +34,15 @@ if (a > b) {
 ```
 
 Identation must be consistent where each next identation level is 4 whitespaces(1 tab) deeper than previous one.
+
+All the variables and function names must be exact and straightforward. To keep consitency and readability, I've decided that the names of functions and variables must be designed like so:
+
+##### functions
+* Function name's first word must start with lowercase, every next - with uppercase.
+	| Name         | Correct? |
+	|:------------:|:--------:|
+	| TestFunction | No       |
+	| testfunction | No       |
+	| testFunction | Yes      |
+	| tf           | No       |
+	| testFunc     | No       |
