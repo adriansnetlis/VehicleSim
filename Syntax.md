@@ -13,6 +13,13 @@ void forbiddenTest()
 	cout << "Don't run this test!\n";
 }
 ```
+#### classes
+```c++
+class Node
+{
+	...
+}
+```
 #### loops
 ```c++
 while (time < 52.5) {
@@ -33,8 +40,20 @@ if (a > b) {
 }
 ```
 
+#### variables
+Runtime variables must be defined in the deepest identation level where they are going to be used. User-adjustable variables must all be set in one place - the highest identation space that any of the variables require.
+
+```c++
+class Vector3
+{
+
+}
+```
+
+#### identation
 Identation must be consistent where each next identation level is 4 whitespaces(1 tab) deeper than previous one.
 
+#### naming
 All the variables and function names must be exact and straightforward. To keep consitency and readability, I've decided that the names of functions and variables must be designed like so:
 
 ##### function names
@@ -59,3 +78,14 @@ Variables, just like functions, start with lowercase and every next letter - wit
 | dv            | No       |
 | d_v           | Yes      |
 | deltaVel      | No       |
+
+##### class names
+In class names, every word starts with captial letter. All words must be full, no shortened forms(except for datatypes, e.g. `Vector3f` for a 3D float vector).
+| Name         | Correct? |
+|:------------:|:--------:|
+| Vector3Float | Yes      |
+| vector3float | No       |
+| vector3Float | No       |
+| v3f          | No       |
+| vec3Float    | No       |
+| Vector3f     | Yes      |
