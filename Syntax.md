@@ -81,6 +81,7 @@ Variables, just like functions, start with lowercase and every next letter - wit
 
 ##### class names
 In class names, every word starts with captial letter. All words must be full, no shortened forms(except for datatypes, e.g. `Vector3f` for a 3D float vector).
+
 | Name         | Correct? |
 |:------------:|:--------:|
 | Vector3Float | Yes      |
