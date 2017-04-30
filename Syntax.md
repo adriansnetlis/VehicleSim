@@ -37,7 +37,7 @@ Identation must be consistent where each next identation level is 4 whitespaces(
 
 All the variables and function names must be exact and straightforward. To keep consitency and readability, I've decided that the names of functions and variables must be designed like so:
 
-##### functions
+##### function names
 Function name's first word must start with lowercase, every next - with uppercase. Must use only full names of functions, no first-letter-only or similar shorter versions (we must make sure that everybody can read and understand, what's going on).
 
 | Name         | Correct? |
@@ -48,7 +48,7 @@ Function name's first word must start with lowercase, every next - with uppercas
 | tf           | No       |
 | testFunc     | No       |
 
-##### variables
+##### variable names
 Variables, just like functions, start with lowercase and every next letter - with uppercase. For most of variables only full names are allowed. Exceptions are physics variables, where you can use the letters as used in physics(e.g. `v` for `velocity`, `t` for time, `d_t`(`d_` stands for delta) for `deltaTime`).
 
 | Name          | Correct? |
